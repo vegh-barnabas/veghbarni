@@ -1,19 +1,24 @@
+'use client'
+
 import Link from 'next/link'
 import styles from './navbar.module.css'
+import { usePathname } from 'next/navigation'
 
 export default function Navbar() {
+    const pathName = usePathname()
+
     return (
         <nav className={styles.navbar}>
-            <Link href='/' className={styles.navbarItem}>
+            <Link href='/' scroll={false} className={`${styles.navbarItem} ${pathName === '/' ? styles.navbarActive : ''}`}>
                 Home
             </Link>
-            <Link href='/articles' className={styles.navbarItem}>
+            <Link href='/articles' scroll={false} className={`${styles.navbarItem} ${pathName === '/articles' ? styles.navbarActive : ''}`}>
                 Articles
             </Link>
-            <Link href='/elte' className={styles.navbarItem}>
+            <Link href='/elte' scroll={false} className={`${styles.navbarItem} ${pathName === '/elte' ? styles.navbarActive : ''}`}>
                 ELTE
             </Link>
-            <Link href='/contact' className={styles.navbarItem}>
+            <Link href='/contact' scroll={false} className={`${styles.navbarItem} ${pathName === '/contact' ? styles.navbarActive : ''}`}>
                 Contact
             </Link>
         </nav>

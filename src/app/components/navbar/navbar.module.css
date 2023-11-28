@@ -36,7 +36,7 @@
     border: 1px solid var(--bg-color);
 }
 
-.navbar-item {
+.navbarItem {
     background-color: var(--navbar-color);
 
     padding: 15px;
@@ -52,7 +52,7 @@
     user-select: none;
 }
 
-.navbar-item:hover {
+.navbarItem:hover {
     background-color: var(--navbar-item-hover-color);
 
     transition: background-color 0.5s, box-shadow 0.2s;
@@ -60,7 +60,7 @@
     box-shadow: inset 0 -3px 0 #6baaf8;
 }
 
-.navbar a.active {
+.navbarActive {
     background-color: var(--navbar-item-click-color);
 
     transition: background-color 0.2s, box-shadow 0.2s;
