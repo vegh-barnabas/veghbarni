@@ -1,0 +1,99 @@
+.labels {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.label {
+    background-color: #1c2944;
+    /* Set desired background color */
+    color: #dfe6fd;
+    /* Set desired text color */
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 12px;
+    /* Add padding for spacing */
+    border: 1px solid #111d36;
+    border-radius: 4px;
+    /* Add border radius for rounded edges */
+    align-self: flex-start;
+    /* Align label to the top of the card */
+    white-space: nowrap;
+    /* Prevent label text from wrapping */
+    overflow: hidden;
+    /* Hide overflow text */
+    text-overflow: ellipsis;
+    /* Add ellipsis for truncated text */
+    margin-bottom: 6px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card {
+    box-sizing: border-box;
+    background-color: #1c2944;
+    border: 1px solid #1c2944;
+    margin-right: 16px;
+    border-radius: 4px;
+    /* Add rounded edges */
+    box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+
+.image {
+    max-width: 100%;
+    /* Add max-width property */
+    height: auto;
+    /* Add height: auto for maintaining aspect ratio */
+    border-radius: 4px 4px 0 0;
+    /* Set border radius only for top edges */
+}
+
+.text {
+    padding: 5px;
+    padding-top: 0px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.excerpt {
+    font-size: 14px;
+    color: #a8b0c6;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 5px;
+}
+
+.buttonBar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.readMoreButton {
+    background-color: #2b3f68;
+    /* Set desired background color */
+    color: #dfe6fd;
+    /* Set desired text color */
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 12px;
+    /* Add padding for spacing */
+    border: 1px solid #111d36;
+    border-radius: 4px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.readMoreButton:hover {
+    background-color: #405d9c;
+
+}
+
+.readMoreButton:active {
+    background-color: #4969ad;
+}
