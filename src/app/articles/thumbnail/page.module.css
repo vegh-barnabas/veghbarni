@@ -1,4 +1,3 @@
-/* Articles */
 .container {
     font-family: Montserrat, sans-serif;
     flex-basis: calc(33.33% - 16px);
@@ -106,9 +105,4 @@
 
 .readMoreButton:hover {
     background-color: #405d9c;
-
-}
-
-.readMoreButton:hover {
-    background-color: #4969ad;
 }
