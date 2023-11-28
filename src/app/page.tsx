@@ -1,12 +1,10 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-import 'animate.css';
-import Navbar from './components/navbar/navbar';
+import "animate.css";
+import Navbar from "./components/navbar/navbar";
 
 export default function Home() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar />
       <div className="content animate__animated animate__fadeIn">
         {/*  todo align this h1 to center and add confetti effect on hover */}
         <h1>Welcome to my page!</h1>
@@ -17,5 +15,5 @@ export default function Home() {
         </p>
       </div>
     </>
-  )
+  );
 }
