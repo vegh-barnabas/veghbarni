@@ -1,3 +1,4 @@
 - add favicon in src/app
 - add a theme.css file with the color variables
 - shorten image path for articles in tsconfig.json
+- the articles are not the same width when making the window smaller

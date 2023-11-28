@@ -1,3 +1,18 @@
+/* Articles */
+.container {
+    font-family: Montserrat, sans-serif;
+    flex-basis: calc(33.33% - 16px);
+    /* Set flex basis to 33.33% minus margin */
+    margin-bottom: 16px;
+    /* Add margin between cards */
+    display: flex;
+    /* Add flex display */
+    flex-direction: column;
+    /* Set flex direction to column */
+    height: 100%;
+    /* Set height to 100% */
+}
+
 .labels {
     display: flex;
     flex-wrap: wrap;
@@ -94,6 +109,6 @@
 
 }
 
-.readMoreButton:active {
+.readMoreButton:hover {
     background-color: #4969ad;
 }
