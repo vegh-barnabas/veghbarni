@@ -23,7 +23,7 @@ export default function Navbar() {
         href="/articles"
         scroll={false}
         className={`${styles.navbarItem} ${
-          pathName === "/articles" ? styles.navbarActive : ""
+          pathName.includes("/articles") ? styles.navbarActive : ""
         }`}
       >
         Articles
