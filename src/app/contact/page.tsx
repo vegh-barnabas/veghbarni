@@ -1,3 +1,4 @@
+import "animate.css";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 import Navbar from "../components/navbar/navbar";
