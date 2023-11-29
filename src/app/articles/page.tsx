@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 
 import "animate.css";
 
-import ArticleThumbnail from "./thumbnail/page";
+import ArticleThumbnail from "../components/article-thumbnail/article-thumbnail";
 
 // TODO shorten path in tsconfig.json
 import liveserverUrl from "../../../public/imgs/articles/liveserver.png";

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
 
-import styles from "./page.module.css";
+import styles from "./article-thumbnail.module.css";
 
 interface ArticleThumbnailProperties {
   id: string;
